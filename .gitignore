@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+data/*.db
+
+# leaderboard (SQLite + its temp files)
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# local stuff
+.DS_Store
+.env
+.vscode/
+.idea/

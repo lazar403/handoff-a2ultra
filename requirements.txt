@@ -1,0 +1,7 @@
+opencv-python>=4.9.0
+mediapipe>=0.10.14  # <=0.10.21 uses mp.solutions; newer uses Tasks + models/hand_landmarker.task
+numpy<2
+fastapi>=0.115
+uvicorn>=0.34
+pydantic>=2
+requests>=2.28
